@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    &__imagen{
+
+    }
+}
+
+.navegador{
+    max-width: 1000px;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    &__imagen{
+        width: 120px;
+        height: 120px;
+        
+    }
+    &__imagen:hover{
+        transform: scale(1.1);
+    }
+}
+
+
+.inicio{
+    display: flex;
+    justify-content: center;
+ 
+    &__imagen{
+        height: 700px;
+        width: 700px;
+        border-radius: 50%;
+    }
+
+    &__texto{
+        color: white;
+        font-family: 'Pushster', cursive;
+        font-size: 30px;
+
+    }
+
+}
+
+
+
+
+@keyframes rotacion{
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
+
+/*-------Galeria-------- */
+
+.galeria{
+
+    &__imagen{
+        height: 700px;
+        width: 500px;
+    }
+}
+
+/*-------Promos--------*/
+.promo{
+
+    &__imagen{
+      
+        height: 600px;
+        width: 100%;
+       
+       
+    }
+}
+
+/*-------Tienda--------*/
+
+.tienda{
+
+    &__imagen{
+        height: 750px ;
+        width: 634px;
+
+    }
+}
+
+/*-------Contacto--------*/
+
+.contacto{
+
+    &__imagen{
+        
+        animation: ensanche 3s linear infinite ;
+    }
+}
+
+@keyframes ensanche{
+    25%{transform: scale(1.1);}
+    50%{transform: scale(1.2);}
+    75%{transform: scale(1.1);}
+    100%{transform: scale(1);}
+
+}
+
+.nosotros{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3,1fr);
+    
+    &__texto{
+        color: whitesmoke;
+        font-family: 'Raleway', sans-serif;
+        font-size: 30px;
+    }
+
+    &__imagen{
+        height: 400px;
+        width: 100%;
+        
+    }
+
+}

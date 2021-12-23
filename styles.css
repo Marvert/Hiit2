@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+.centrado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navegador {
+  max-width: 1000px;
+  width: 100%;
+  height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navegador__imagen {
+  width: 120px;
+  height: 120px;
+}
+
+.navegador__imagen:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.inicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.inicio__imagen {
+  height: 700px;
+  width: 700px;
+  border-radius: 50%;
+}
+
+.inicio__texto {
+  color: white;
+  font-family: 'Pushster', cursive;
+  font-size: 30px;
+}
+
+@-webkit-keyframes rotacion {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotacion {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  75% {
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+/*-------Galeria-------- */
+.galeria__imagen {
+  height: 700px;
+  width: 500px;
+}
+
+/*-------Promos--------*/
+.promo__imagen {
+  height: 600px;
+  width: 100%;
+}
+
+/*-------Tienda--------*/
+.tienda__imagen {
+  height: 750px;
+  width: 634px;
+}
+
+/*-------Contacto--------*/
+.contacto__imagen {
+  -webkit-animation: ensanche 3s linear infinite;
+          animation: ensanche 3s linear infinite;
+}
+
+@-webkit-keyframes ensanche {
+  25% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes ensanche {
+  25% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.nosotros {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.nosotros__texto {
+  color: whitesmoke;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+
+.nosotros__imagen {
+  height: 400px;
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

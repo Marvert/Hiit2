@@ -52,7 +52,9 @@
 
 .inicio__boton {
   height: 100%;
-  width: 100%;
+  width: 25%;
+  border-radius: 20px;
+  border: #7c7b7b solid 10px;
 }
 
 @media (max-width: 1415px) {
@@ -80,7 +82,6 @@
 }
 
 @media (max-width: 541px) {
-  /* la clase*/
   .galeria__imagen {
     height: 100%;
     width: 100%;
@@ -94,7 +95,6 @@
 }
 
 @media (max-width: 581px) {
-  /* la clase*/
   .promo__imagen {
     height: 100%;
     width: 100%;
@@ -108,14 +108,12 @@
 }
 
 @media (max-width: 1000px) {
-  /* la clase*/
   .tienda__imagen {
     height: 300px;
   }
 }
 
 @media (max-width: 767px) {
-  /* la clase*/
   .tienda__imagen {
     height: auto;
   }
@@ -168,7 +166,6 @@
 }
 
 @media (max-width: 327px) {
-  /* la clase*/
   .contacto__imagen {
     display: none;
   }
@@ -196,14 +193,12 @@
 }
 
 @media (max-width: 274px) {
-  /* la clase*/
   .nosotros__texto {
     font-size: 100%;
   }
 }
 
 @media (max-width: 1250px) {
-  /* la clase*/
   .nosotros__imagen {
     height: 100%;
   }

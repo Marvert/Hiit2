@@ -6,9 +6,6 @@
 .centrado{
     display: flex;
     justify-content: center;
-    &__imagen{
-
-    }
 }
 
 .navegador{
@@ -52,9 +49,9 @@
     &__boton{
         
         height: 100%;
-        width: 100%;
-      
-     
+        width: 25%;
+        border-radius: 20px;
+        border: rgb(124, 123, 123) solid 10px;  
     }
 
 }
@@ -95,7 +92,7 @@
 }
 
 @media (max-width: 541px){
-    /* la clase*/
+  
     .galeria{
         &__imagen{
             height: 100%;
@@ -118,16 +115,14 @@
     }
 }
 
-    @media (max-width: 581px){
-        /* la clase*/
+@media (max-width: 581px){
+       
         .promo{
             &__imagen{
              height: 100%;
              width: 100%;
             }
         }
-        
-    
     }
 
 
@@ -143,7 +138,6 @@
 }
 
 @media (max-width: 1000px){
-    /* la clase*/
     .tienda{
         &__imagen{
             height: 300px;
@@ -154,7 +148,7 @@
 }
 
 @media (max-width: 767px){
-    /* la clase*/
+
     .tienda{
         &__imagen{
             height: auto;
@@ -185,7 +179,7 @@
 }
 
 @media (max-width: 327px){
-    /* la clase*/
+   
     .contacto{
         &__imagen{
             display: none;
@@ -216,12 +210,8 @@
 
 }
 
-
-
-
-
 @media (max-width: 274px){
-    /* la clase*/
+
     .nosotros{
         &__texto{
             font-size: 100%;
@@ -231,7 +221,7 @@
 }
 
 @media (max-width: 1250px){
-    /* la clase*/
+
     .nosotros{
         &__imagen
         {

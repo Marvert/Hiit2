@@ -47,7 +47,11 @@
 .inicio__texto, .inicio__texto2 {
   font-family: 'Raleway', sans-serif;
   font-size: 150px;
-  color: white;
+  color: #3171e7;
+}
+
+.inicio__texto3 {
+  font-family: 'Raleway', sans-serif;
 }
 
 .inicio__boton {
@@ -57,21 +61,21 @@
   border: #7c7b7b solid 10px;
 }
 
-@media (max-width: 1415px) {
+@media (max-width: 757px) {
   .inicio__texto, .inicio__texto2 {
     font-size: 100px;
   }
 }
 
-@media (max-width: 900px) {
-  .inicio__texto, .inicio__texto2 {
-    font-size: 50px;
+@media (max-width: 1315px) {
+  .inicio__imagen {
+    display: none;
   }
 }
 
-@media (max-width: 490px) {
+@media (max-width: 561px) {
   .inicio__texto, .inicio__texto2 {
-    font-size: 25px;
+    display: none;
   }
 }
 

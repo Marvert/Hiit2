@@ -42,7 +42,12 @@
         
         font-family: 'Raleway', sans-serif;
         font-size: 150px;
-        color: rgb(255, 255, 255);
+        color: rgb(49, 113, 231)
+
+    }
+
+    &__texto3{
+        font-family: 'Raleway', sans-serif;
 
     }
 
@@ -57,27 +62,26 @@
 }
 
 
-@media (max-width: 1415px){
+
+@media (max-width: 757px){
     .inicio__texto{
         font-size: 100px;
     }
 
 }
 
-@media (max-width: 900px)
-{
-    .inicio__texto{
-        font-size: 50px;
+@media (max-width: 1315px){
+    .inicio__imagen{
+        display: none;
     }
+
 }
 
-@media (max-width: 490px)
-{
+@media(max-width:561px){
     .inicio__texto{
-        font-size: 25px;
+        display: none;
     }
 }
-
 
 
 
@@ -257,6 +261,7 @@ $colores:(
     @extend .nosotros;
     background-color: rgb(49, 113, 231);
 }
+
 
 .inicio__texto2{
     @extend .inicio__texto;
